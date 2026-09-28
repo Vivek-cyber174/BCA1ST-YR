@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inline CSS Examples</title>
+</head>
+<body style="background-color: #f0f8ff;">
+
+    <!-- 1. Text colour -->
+    <h1 style="color: blue;">Welcome to CSS Lab</h1>
+
+    <!-- 2. Colour + size -->
+    <h2 style="color: green; font-size: 28px;">Inline CSS Examples</h2>
+
+    <!-- 3. Center alignment -->
+    <p style="text-align: center;">This paragraph is in the center.</p>
+
+    <!-- 4. Background colour -->
+    <p style="background-color: yellow;">This paragraph has a yellow background.</p>
+
+    <!-- 5. Font family and style -->
+    <p style="font-family: 'Times New Roman'; font-style: italic;">This text is italic in Times New Roman.</p>
+
+    <!-- 6. Bold and uppercase -->
+    <p style="font-weight: bold; text-transform: uppercase;">this text becomes bold and capital</p>
+
+    <!-- 7. Underline and line-through -->
+    <p style="text-decoration: underline;">This text is underlined.</p>
+    <p style="text-decoration: line-through; color: red;">Old Price: Rs. 999</p>
+
+    <!-- 8. Border and padding -->
+    <p style="border: 2px solid black; padding: 10px;">This paragraph has a border and inner space.</p>
+
+    <!-- 9. Box with width and margin -->
+    <div style="width: 300px; background-color: lightpink; border: 2px dashed purple; padding: 15px; margin: 20px;">
+        This is a styled box.
+    </div>
+
+    <!-- 10. Styling one word with span -->
+    <p>My result is <span style="color: red; font-weight: bold;">PASS</span>.</p>
+
+    <!-- 11. Link without underline -->
+    <a href="https://www.google.com" style="color: darkorange; text-decoration: none;">Go to Google</a>
+
+    <!-- 12. Round image -->
+    <br><br>
+    <img src="photo.jpg" alt="Photo" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid navy;">
+
+    <!-- 13. Button -->
+    <br><br>
+    <button style="background-color: green; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Submit</button>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Different Boxes</title>
+</head>
+<body style="background-color: lightblue;">
+
+    <h1 style="text-align: center;">My Boxes</h1>
+
+    <!-- Box 1 -->
+    <div style="background-color: yellow; width: 300px; height: 100px; border: 2px solid black; margin: 10px; padding: 10px;">
+        Box 1 - Yellow box
+    </div>
+
+    <!-- Box 2 -->
+    <div style="background-color: lightgreen; width: 400px; height: 120px; border: 3px dashed green; margin: 10px; padding: 10px;">
+        Box 2 - Green box with dashed border
+    </div>
+
+    <!-- Box 3 -->
+    <div style="background-color: pink; width: 250px; height: 80px; border: 3px dotted red; margin: 10px; padding: 10px; border-radius: 15px;">
+        Box 3 - Pink box with round corners
+    </div>
+
+    <!-- Box 4 -->
+    <div style="background-color: navy; color: white; width: 350px; height: 100px; margin: 10px auto; padding: 10px; text-align: center;">
+        Box 4 - Center mein navy box
+    </div>
+
+</body>
+</html>
